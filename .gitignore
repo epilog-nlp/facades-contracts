@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Facades.Contracts/.vs/Facades.Contracts/DesignTimeBuild
+/Facades.Contracts/.vs/Facades.Contracts/v16
+/Facades.Contracts/binaries
+/Facades.Contracts/Facades.Standard.Contracts/.vs/Facades.Standard.Contracts

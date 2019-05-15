@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.0;netstandard2.0;net461;net462;net47;net471;net472;netcoreapp1.0;netcoreapp2.0;netcoreapp2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>Ian Schlarman</Authors>
+    <Copyright>Copyright ©2019 Ian Schlarman</Copyright>
+    <Description>Exposes facades for common Logging, Configuration, and DI components to extract dependencies as well as utility methods for logging inside of Linq expressions.</Description>
+    <PackageTags>Logging Configuration Facade LINQ IoC Contracts DI</PackageTags>
+    <Authors>Ian Schlarman</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReleaseNotes>Added GitHub source code references, Repository Information, and SourceLink support. Added DI contracts for interacting with IoC Containers.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/kaylerich/facades-contracts</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kaylerich/facades-contracts.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All"/>
+  </ItemGroup>
+
+</Project>
